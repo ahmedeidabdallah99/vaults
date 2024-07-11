@@ -1,0 +1,92 @@
+<odoo>
+    <template id="company_template" name="Company">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'company'"/>
+
+            <!-- Main Container -->
+            <section class="company-section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Left Div -->
+                        <div class="col-lg-6 company-left">
+                            <h2>A LEGACY IS BORN</h2>
+                            <p>Every story has a beginning, ours began in 1834 with one simple concept from our
+                                visionary founder Philipp Wolf I, “It is logical to protect one’s possessions by storing
+                                and safeguarding them in a fine quality case.” Journey through the milestones of WOLF as
+                                we grew into a global brand through our commitment to honouring people's stories and the
+                                priceless jewellery and timepieces they entrust to us.
+                            </p>
+                            <a href="/" class="explore-btn">Explore Our History</a>
+                        </div>
+                        <!-- Right Div -->
+                        <div class="col-lg-6 company-right">
+                            <div class="image-container">
+                                <img src="/vaults/static/src/media/vault1.jpg" alt="Image 1"
+                                     class="img-fluid front-image"/>
+                                <img src="/vaults/static/src/media/vault2.jpg" alt="Image 2"
+                                     class="img-fluid back-image"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="company-section-alt">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Left Div -->
+                        <div class="col-lg-6 company-right-alt">
+                            <div class="image-container-alt">
+                                <img src="/vaults/static/src/media/vault1.jpg" alt="Image 1"
+                                     class="img-fluid front-image-alt"/>
+                                <img src="/vaults/static/src/media/vault2.jpg" alt="Image 2"
+                                     class="img-fluid back-image-alt"/>
+                            </div>
+                        </div>
+                        <!-- Right Div -->
+                        <div class="col-lg-6 company-left-alt">
+                            <h2>1968</h2>
+                            <p>Every story has a beginning, ours began in 1834 with one simple concept from our
+                                visionary founder Philipp Wolf I, “It is logical to protect one’s possessions by storing
+                                and safeguarding them in a fine quality case.” Journey through the milestones of WOLF as
+                                we grew into a global brand through our commitment to honouring people's stories and the
+                                priceless jewellery and timepieces they entrust to us.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="company-section-alt">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Left Div -->
+
+                        <div class="col-lg-6 company-left-alt">
+                            <h2>1968</h2>
+                            <p>Every story has a beginning, ours began in 1834 with one simple concept from our
+                                visionary founder Philipp Wolf I, “It is logical to protect one’s possessions by storing
+                                and safeguarding them in a fine quality case.” Journey through the milestones of WOLF as
+                                we grew into a global brand through our commitment to honouring people's stories and the
+                                priceless jewellery and timepieces they entrust to us.
+                            </p>
+                        </div>
+                        <!-- Right Div -->
+
+
+                        <div class="col-lg-6 company-right-alt">
+                            <div class="image-container-alt">
+                                <img src="/vaults/static/src/media/vault1.jpg" alt="Image 1"
+                                     class="img-fluid front-image-alt"/>
+                                <img src="/vaults/static/src/media/vault2.jpg" alt="Image 2"
+                                     class="img-fluid back-image-alt"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </t>
+    </template>
+</odoo>

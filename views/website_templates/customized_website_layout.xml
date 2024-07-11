@@ -1,0 +1,76 @@
+<odoo>
+    <template id="custom_website_layout" inherit_id="website.layout">
+        <xpath expr="//header" position="replace">
+            <header>
+                <div class="custom_header">
+                    <nav class="navbar">
+                        <ul class="nav-menu">
+                            <li>
+                                <a href="/company">COMPANY</a>
+                            </li>
+                            <li>
+                                <a href="/bespoke">BESPOKE</a>
+                            </li>
+                            <li>
+                                <a href="/tales">TALES</a>
+                            </li>
+                            <li>
+                                <a href="/visions">VISIONS</a>
+                            </li>
+                            <li>
+                                <a href="/keepers">KEEPERS</a>
+                            </li>
+                            <li>
+                                <a href="/services">SERVICES</a>
+                            </li>
+                            <li>
+                                <a href="/contact">CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </xpath>
+
+        <xpath expr="//footer" position="replace">
+            <footer class="custom_footer">
+                <div class="footer_top">
+                    <div class="footer_left">
+                        <h2 class="website_name">Website Name</h2>
+                        <p class="website_description">This is a brief paragraph about the website. It provides a
+                            summary of what the website is about.
+                        </p>
+                    </div>
+                    <div class="footer_right">
+                        <div class="footer_social">
+                            <a href="https://www.instagram.com" target="_blank">
+                                <img src="/vaults/static/src/media/instagram.svg" alt="Instagram"/>
+                            </a>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <img src="/vaults/static/src/media/facebook.svg" alt="Facebook"/>
+                            </a>
+                            <a href="https://www.linkedin.com" target="_blank">
+                                <img src="/vaults/static/src/media/linkedin.svg" alt="LinkedIn"/>
+                            </a>
+                        </div>
+                        <p class="all_rights_reserved">All rights reserved © 2024.</p>
+                    </div>
+                </div>
+                <hr class="footer_separator"/>
+                <div class="footer_bottom">
+                    <div class="footer_links">
+                        <a href="/terms-of-sale">TERMS OF SALE</a>
+                        <a href="/privacy-policy">PRIVACY POLICY</a>
+                        <a href="/visitors-policy">VISITORS POLICY</a>
+                        <a href="/cookies-policy">COOKIES POLICY</a>
+                        <a href="/code-of-conduct">CODE OF CONDUCT</a>
+                    </div>
+                    <p class="website_developed">Website developed by YourCompany.</p>
+                </div>
+            </footer>
+
+
+        </xpath>
+
+    </template>
+</odoo>

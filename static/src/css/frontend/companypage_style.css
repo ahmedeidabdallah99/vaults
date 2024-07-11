@@ -1,0 +1,125 @@
+/* Main Container */
+.company-section {
+    padding: 120px 0;
+    perspective: 1000px;
+}
+
+.company-left h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.company-left p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.company-left .explore-btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    outline: 1px solid #000;
+}
+
+
+.company-left .explore-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.company-right {
+    position: relative;
+    height: 100%;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    perspective: inherit;
+}
+
+.front-image {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    height: auto;
+}
+
+.back-image {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    z-index: 2;
+    width: 70%;
+    height: auto;
+    transform: rotate(0deg) translateZ(200px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/* Second Section */
+.company-section-alt {
+    padding: 120px 0;
+    perspective: 1000px;
+}
+
+.company-left-alt h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.company-left-alt p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.company-right-alt {
+    position: relative;
+    height: 100%;
+}
+
+.image-container-alt {
+    position: relative;
+    width: 100%;
+    height: auto;
+    perspective: inherit;
+}
+
+.front-image-alt {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    height: auto;
+    transform: rotate(-1deg);
+}
+
+.back-image-alt {
+    position: absolute;
+    bottom: 70%;
+    left: 45%;
+    z-index: 2;
+    width: 50%;
+    height: auto;
+    transform: rotate(1.5deg);
+}
+
+
+
+
+
+
+
+

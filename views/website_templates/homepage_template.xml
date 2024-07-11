@@ -1,0 +1,168 @@
+<odoo>
+    <template id="homepage_template" name="Homepage">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'homepage'"/>
+
+                        <section class="video-section">
+                            <video t-att-autoplay="True" t-att-loop="True" t-att-muted="True" t-att-playsinline="True"
+                                   class="bg-video">
+                                <source t-att-src="'https://player.vimeo.com/progressive_redirect/playback/814148637/rendition/1080p/file.mp4?loc=external&amp;log_user=0&amp;signature=9fb42476cff2eafeb0aaa2814163627cc14dca260438986a7ef38e7285d383e8'"
+                                        type="video/mp4"/>
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-overlay">
+                                <img src="/vaults/static/src/media/x_platform.svg" alt="Company Logo"
+                                     class="company-logo"/>
+                            </div>
+                        </section>
+
+                        <!-- Rest of the homepage content -->
+                        <div id="wrap" class="oe_structure oe_empty">
+                            <section class="s_text_image pt80 pb88 o_custom_colored_container"
+                                     data-snippet="s_text_image" data-name="Text - Image">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="o_colored_level col-lg-6">
+                                            <img src="/web/image/1809-7e390145/company_today.jpg" alt=""
+                                                 class="img img-fluid o_we_custom_image" loading="lazy"/>
+                                        </div>
+                                        <div class="o_colored_level pb0 col-lg-6">
+                                            <h2>
+                                                <span class="h3-fs">HISTORY</span>
+                                            </h2>
+                                            <p class="o_default_snippet_text">
+                                                <span class="base-fs">In 1949 Florence, art and beauty’s background
+                                                    since immemorial time, saw the birth of the company and, since then,
+                                                    it becomes the cradle of all our precious creations...
+                                                </span>
+                                                <br/>
+                                            </p>
+                                            <h5 class="o_default_snippet_text">
+                                                <br/>
+                                            </h5>
+                                            <br/>
+                                            <p/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                        <div id="wrap" class="oe_structure oe_empty">
+                            <section class="s_text_image pt80 pb88 o_custom_colored_container"
+                                     data-snippet="s_text_image"
+                                     data-name="Text - Image">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="o_colored_level pb0 col-lg-6">
+                                            <h2>
+                                                <span class="h3-fs">COMPANY TODAY</span>
+                                            </h2>
+                                            <p class="o_default_snippet_text">
+                                                <span class="base-fs">From metals to leather, from crystals to suede,
+                                                    from stones to
+                                                    brass, everything is strictly environmentally friendly handcrafted.
+                                                    At the same
+                                                    location we personally follow any production process step: raw wood
+                                                    is
+                                                    skillfully
+                                                    carved by our expert manpower, which shapes it and converts it into
+                                                    what will be
+                                                    the
+                                                    basis of a new creation. Safety, elegance, refinement: these are the
+                                                    guidelines
+                                                    in
+                                                    Agresti, that for over 70 years has been manufacturing elegant
+                                                    strongboxes,
+                                                    chests,
+                                                    fine furniture skillfully handcrafted, and much more. Our wide range
+                                                    of
+                                                    products, in
+                                                    fact, includes exclusive brass necklaces holder, innovative Swiss
+                                                    mechanisms for
+                                                    automatic watches charge, drawers to store jewellery of any kind,
+                                                    compartments
+                                                    equipped to carefully collect pens, watches and documents, refined
+                                                    items for
+                                                    cigars
+                                                    and games, elegant wine cellars for wine and spirits.
+                                                </span>
+                                                <br/>
+                                            </p>
+                                            <h5 class="o_default_snippet_text">
+                                                <br/>
+                                            </h5>
+                                            <br/>
+                                            <p/>
+                                        </div>
+                                        <div class="o_colored_level col-lg-6">
+                                            <img src="/web/image/1809-7e390145/company_today.jpg" alt=""
+                                                 class="img img-fluid o_we_custom_image" loading="lazy"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                        <div>
+                            <section class="s_three_columns o_colored_level pt72 pb120" data-vcss="001"
+                                     data-snippet="s_three_columns"
+                                     data-name="Columns" style="background-image: none;">
+                                <div class="container">
+                                    <h2 style="text-align: center;" class="o_default_snippet_text">
+                                        <span style="font-size: 2.25rem;">Vault Categories</span>
+                                    </h2>
+                                    <div class="row d-flex align-items-stretch">
+                                        <div class="col-lg-4 s_col_no_bgcolor pb16 pt32">
+                                            <div class="card text-bg-white h-100">
+                                                <a href="/tales" class="card text-bg-white h-100"
+                                                   style="text-decoration: none;">
+                                                    <img class="card-img-top o_animate_on_hover fixed-size-image "
+                                                         src="/vaults/static/src/media/vault1.jpg" alt=""/>
+                                                    <div class="card-body">
+                                                        <h3 class="card-title o_default_snippet_text"
+                                                            style="text-align: center;">
+                                                            <span style="font-size: 1.875rem;">TALES</span>
+                                                        </h3>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="s_col_no_bgcolor pb0 pt32 col-lg-4">
+                                            <div class="card text-bg-white h-100">
+                                                <a href="/visions" class="card text-bg-white h-100"
+                                                   style="text-decoration: none;">
+                                                    <img class="card-img-top o_animate_on_hover fixed-size-image "
+                                                         src="/vaults/static/src/media/vault2.jpg" alt=""/>
+                                                    <div class="card-body">
+                                                        <h3 class="card-title o_default_snippet_text"
+                                                            style="text-align: center;">
+                                                            <span style="font-size: 1.875rem;">VISIONS</span>
+                                                        </h3>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 s_col_no_bgcolor pt32 pb0">
+                                            <div class="card text-bg-white h-100">
+                                                <a href="/keepers" class="card text-bg-white h-100"
+                                                   style="text-decoration: none;">
+                                                    <img class="card-img-top o_animate_on_hover fixed-size-image "
+                                                         src="/vaults/static/src/media/vault3.jpg" alt=""/>
+                                                    <div class="card-body">
+                                                        <h3 class="card-title o_default_snippet_text"
+                                                            style="text-align: center;">
+                                                            <span style="font-size: 1.875rem;">KEEPERS</span>
+                                                        </h3>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                    </t>
+                </template>
+            </odoo>
